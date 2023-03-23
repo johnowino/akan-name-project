@@ -1,9 +1,16 @@
+// variables to be used
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 var gender = ["Male", "Female"]
 var date = 01
 var month = 01
 var year = 1900
+var inputDate = prompt("Enter date of birth as DD")
+var date = parseInt(inputDate)
+var inputMonth = prompt("Enter month of birth as MM")
+var month = parseInt(inputMonth)
+var inputYear = prompt("Enter year of birth as YYYY")
+var year = parseInt(inputYear)
 
 // Date error control flow
 if (date > 31) {
