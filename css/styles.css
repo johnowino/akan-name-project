@@ -2,8 +2,29 @@ h1 {
   color:red
 }
 h1 {
-  text-align: center
+  text-align: center; margin: 40px; padding: 20px;
 }
-.form {
+
+form {
 background-color: aqua;
+border-style: solid;
+text-align: center;
+padding: 10px;
 }
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 20px;;
+}
+
+.akin {
+font-size: 200%;
+color: red;
+}
+
+.born {
+  font-size: 150%;
+  color: blueviolet;
+}
+
