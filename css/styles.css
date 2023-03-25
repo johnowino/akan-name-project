@@ -15,7 +15,7 @@ p {
   margin-top: 15px;
   margin-bottom: 15px;
   margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 20px;;
 }
 
 .akin {
@@ -26,5 +26,5 @@ color: red;
 .born {
   font-size: 150%;
   color: blueviolet;
-
 }
+

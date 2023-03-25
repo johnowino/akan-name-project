@@ -1,14 +1,10 @@
 # {Akan Name Finder}
-#### {This application enables someone to find there Akan name based on gender and date of birth}, {24th March 2023}
+#### {This application enables someone to find there Akan name based on gender and date of birth}, {25th March 2023}
 #### By **{John Owino}**
 ## Description
 {This appalication allows someone to derive their Akan names based on their gender and date of birth. It is based on an html file and is supported by css and javascript. All the user needs is aaccess to the web page with two pieces of information; their gender and date of birth. The application uses the date of birth to identify the day of the week the person was born. The day of week is then mapped to either a male or female array depended on the gender of the user. All the information is captured through a html form. Error control is limited by use of buttons for gender and use of in-built calendar for date. }
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+
 {For an end user, all they need is a device that can connect to the internet.
 For developers, you need to be familiar with html, css, and javascript. knowlege of DOM is crucial to succesffuly integrate the form to the back-end. No database is required. }
 ## Known Bugs
@@ -18,7 +14,7 @@ For developers, you need to be familiar with html, css, and javascript. knowlege
 ## Support and contact details
 {Feekl free to engage and make this project a success. You may reach me on email at the following address - john.owino@student.moringaschool.com.}
 ### License
-*{MIT License
+{MIT License
 
 Copyright (c) [2023] [John Edward Owino]
 
@@ -39,4 +35,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE..}*
-Copyright (c) {year} **{List of contributors or company name}**
+Copyright (c) {year} **{John Owino, Moringa School Mentors}**
