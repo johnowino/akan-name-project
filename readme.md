@@ -12,7 +12,7 @@ For developers, you need to be familiar with html, css, and javascript. knowlege
 ## Technologies Used
 {HTML, CSS and JavaScript has been used to setup this application. Limited knowledge of Javascript has delayed the compleion of the project. However, we expect an update of the code in the next feew days. }
 ## Support and contact details
-{Feekl free to engage and make this project a success. You may reach me on email at the following address - john.owino@student.moringaschool.com.}
+{Feel free to engage and make this project a success. You may reach me on email at the following address - john.owino@student.moringaschool.com.}
 ### License
 {MIT License
 
