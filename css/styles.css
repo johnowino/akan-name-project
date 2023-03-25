@@ -12,8 +12,19 @@ text-align: center;
 padding: 10px;
 }
 p {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   margin-right: 20px;
   margin-left: 20px;
+}
+
+.akin {
+font-size: 200%;
+color: red;
+}
+
+.born {
+  font-size: 150%;
+  color: blueviolet;
+
 }
