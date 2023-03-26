@@ -1,3 +1,13 @@
+let form = document.querySelector('form');
+let submitButton = document.querySelector('#submit-button');
+console.log(submitButton);
+form.addEventListener('submit', function(event){
+  event.preventDefault();
+  console.log(event);
+
+  let gender = form.querySelector
+  (gender).value;})
+
 // variables to be used
 const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]

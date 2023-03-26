@@ -1,18 +1,37 @@
+let form = document.querySelector('form');
+let submitButton = document.querySelector('#submit-button');
+console.log(submitButton);
+form.addEventListener('submit', function(event){
+  event.preventDefault();
+  console.log(event);
+
+  let gstatus = form.querySelector
+  ('#birth-info').value;
+})
+
+// document.addEventListener('DOMContentLoaded') ...d.
 // variables to be used
 const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 //default variable values
-var gender = "Male"
+var gender = "Female"
 akanName = "Null"
 var nameError = "Name is in error. Recheck gender and day of birth"
 
+//Get gender info from DOM ..... still failing for review
+// let gender = document.getElementById("gender-info").addEventListener("click", functiion() {
+//   alert("Hello World!");
+// })
+// console.log(gender)
 // Get day of the week using getDay function
-const d = new Date("2023-03-24");
-let day = weekday[d.getDay()];
+const bday = new Date("2023-03-22");
+let day = weekday[bday.getDay()];
 console.log(day)
 document.getElementById("dayOfBirth").innerHTML = day;
+
+
 // Get gender value from gender buttons using DOM
 switch (gender) {
   case "Male":
@@ -63,3 +82,17 @@ switch (gender) {
     document.getElementById("aName").innerHTML = akanName;
     break;
 }
+// let testing = document.querySelectorAll('form')
+// console.log(testing);
+
+//let form = document.querySelector('form');
+//let submitButton = document.querySelector('#submit-button');
+//console.log(submitButton);
+//form.addEventListener('submit', function(event){
+//  event.preventDefault();
+//  console.log(event);
+
+//  let gender = form.querySelector
+//  (gender).value;
+// let dateOfBirth = document.querySelector('bday');
+// console.log(bday.value)
