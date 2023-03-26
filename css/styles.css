@@ -23,9 +23,10 @@ p {
   border-style: solid;
   text-align: center;
   padding: 10px;
+  font-size: 80px;
 }
 
-.akin {
+.akinName {
 font-size: 200%;
 color: red;
 }
