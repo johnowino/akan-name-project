@@ -1,14 +1,14 @@
 # {Akan Name Finder}
-#### {This application enables someone to find there Akan name based on gender and date of birth}, {25th March 2023}
+#### {This application enables someone to find there Akan name based on gender and date of birth}, {26th March 2023}
 #### By **{John Owino}**
 ## Description
-{This appalication allows someone to derive their Akan names based on their gender and date of birth. It is based on an html file and is supported by css and javascript. All the user needs is aaccess to the web page with two pieces of information; their gender and date of birth. The application uses the date of birth to identify the day of the week the person was born. The day of week is then mapped to either a male or female array depended on the gender of the user. All the information is captured through a html form. Error control is limited by use of buttons for gender and use of in-built calendar for date. }
+{This application allows someone to derive their Akan names based on their gender and date of birth. It is based on an html file and is supported by css and javascript. All the user needs is aaccess to the web page with two pieces of information; their gender and date of birth. The application uses the date of birth to identify the day of the week the person was born. The day of week is then mapped to either a male or female array depended on the gender of the user. All the information is captured through a html form. Error control is limited by use of buttons for gender and use of in-built calendar for date. The form cannot be submitted without all fields completed }
 ## Setup/Installation Requirements
 
 {For an end user, all they need is a device that can connect to the internet.
 For developers, you need to be familiar with html, css, and javascript. knowlege of DOM is crucial to succesffuly integrate the form to the back-end. No database is required. }
 ## Known Bugs
-{There is a pending bug in the code. The DOM interface has not been setup successfiully. Work is ongoing to resolve this. }
+{There is a pending bug in the code. The DOM interface has not been setup successfiully. Work is ongoing to resolve this. As at time of this posting, i have not been succesful to grab data from the DOM and use it to update variable for the program to complete. }
 ## Technologies Used
 {HTML, CSS and JavaScript has been used to setup this application. Limited knowledge of Javascript has delayed the compleion of the project. However, we expect an update of the code in the next feew days. }
 ## Support and contact details
