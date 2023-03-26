@@ -1,11 +1,18 @@
 // variables to be used
 const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
-//default variabl values
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+//default variable values
 var gender = "Female"
 var day = "Friday"
 akanName = "Null"
 var nameError = "Name is in error. Recheck gender and day of birth"
+
+// Get day of the week using getDay function
+const d = new Date("2023-03-26");
+let day = weekday[d.getDay()];
+console.log(day)
 // Get gender value from gender buttons using DOM
 switch (gender) {
   case "Male":
