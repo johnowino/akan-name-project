@@ -1,47 +1,62 @@
 // variables to be used
 const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
-const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+//default variabl values
+var gender = "Male"
+var day = "Wednesday"
+akanName = "Null"
+var nameError = "Name is in error. Recheck gender and day of birth"
 
-// var gender = ["Male", "Female"] Try if else to resolve this before asking for date
-//day 0 is Sunday
-var gender = ""
+// Need to introduce switch to select either male or female array
 
-// Get day script. Return the weekday 
+// Males names checker
+if (day == "Sunday") {
+akanName = maleNames[0];
+} else if 
+(day == "Monday") {
+akanName = maleNames[1];
+} else if
+(day == "Tuesday") {
+akanName = maleNames[2];
+} else if
+(day == "Wednesday") {
+akanName = maleNames[3];
+} else if
+(day == "Thursday") {
+akanName = maleNames[4];
+} else if
+(day == "Friday") {
+akanName = maleNames[5];
+} else if
+(day == "Saturday") {
+akanName = maleNames[6];
+} else {
+(console.log(nameError));
+}
+console.log(akanName);
 
-// const d = new Date("2023-02-22");
-// let day = days[d.getDay()];
-// console.log(day);
-
-document.addEventListener("DOMContentLoaded", () => {
-})
-
-//grabbing single element
-let submitButton = document.querySelector('#submit-button');
-console.log(submitButton);
-submitButton.addEventListener('click', function(event){
-  event.preventDefault();
-  console.log(event);
-});
-
-  // let gender = document.querySelector('#gender');
-  // console.log(gender.value);
-
-  // let birthday = document.querySelector('#birthday');
-  // console.log(birthday.value);
-
-// grabbing element by id (single elements grabbing)
-// let form = document.getElementById("birthday")
-// console.log(form)
-
-// grabbing multiple elements by tag name
-// let headings = document.getElementsByTagName("h1")
-// console.log(headings)
-
-// grabbing multiple elements by class
-// let headings = document.getElementsByClassName("col-md-8")
-// console.log(headings)
-
-// grabbing multiple elements by query selector all
-/// let headings = document.querySelectorAll('.form')
-/// console.log(headings)
+// Fenale names checker
+if (day == "Sunday") {
+akanName = femalemaleNames[0];
+} else if 
+(day == "Monday") {
+akanName = femaleNames[1];
+} else if
+(day == "Tuesday") {
+akanName = femaleNames[2];
+} else if
+(day == "Wednesday") {
+akanName = femaleNames[3];
+} else if
+(day == "Thursday") {
+akanName = femaleNames[4];
+} else if
+(day == "Friday") {
+akanName = femaleNames[5];
+} else if
+(day == "Saturday") {
+akanName = femaleNames[6];
+} else {
+(console.log(nameError));
+}
+console.log(akanName);
