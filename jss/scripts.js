@@ -4,15 +4,15 @@ const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 //default variable values
-var gender = "Female"
-var day = "Friday"
+var gender = "Male"
 akanName = "Null"
 var nameError = "Name is in error. Recheck gender and day of birth"
 
 // Get day of the week using getDay function
-const d = new Date("2023-03-26");
+const d = new Date("2023-03-24");
 let day = weekday[d.getDay()];
 console.log(day)
+document.getElementById("dayOfBirth").innerHTML = day;
 // Get gender value from gender buttons using DOM
 switch (gender) {
   case "Male":
@@ -36,6 +36,7 @@ switch (gender) {
       (console.log(nameError));
     }
     console.log(akanName);
+    document.getElementById("aName").innerHTML = akanName;
     break;
   case "Female":
     gender = "Female";
@@ -59,5 +60,6 @@ switch (gender) {
       (console.log(nameError));
     }
     console.log(akanName);
+    document.getElementById("aName").innerHTML = akanName;
     break;
 }
